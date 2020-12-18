@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "qHntyq1GLOrNgdC+ms6qBxRmMCFQlMVzGtugQUeB+gK2sP954IUBjY8nESM4/t+SrZjsDFdqmNwfLt3c4/hRUA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\acer\\Desktop\\TableTest\\TableTest.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\acer\\.nuget\\packages\\app.user.locationinfo\\1.0.0\\app.user.locationinfo.1.0.0.nupkg.sha512",
+    "C:\\Users\\acer\\.nuget\\packages\\newtonsoft.json\\12.0.2\\newtonsoft.json.12.0.2.nupkg.sha512",
+    "C:\\Users\\acer\\.nuget\\packages\\restsharp\\106.6.9\\restsharp.106.6.9.nupkg.sha512",
+    "C:\\Users\\acer\\.nuget\\packages\\spectre.console\\0.34.0\\spectre.console.0.34.0.nupkg.sha512",
+    "C:\\Users\\acer\\.nuget\\packages\\wcwidth\\0.2.0\\wcwidth.0.2.0.nupkg.sha512"
+  ],
+  "logs": []
+}
