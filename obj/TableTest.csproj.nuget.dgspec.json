@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\acer\\Desktop\\TableTest\\TableTest.csproj": {}
+    "D:\\Courses\\dotnetpractice\\Testing-Spectre\\TableTest.csproj": {}
   },
   "projects": {
-    "C:\\Users\\acer\\Desktop\\TableTest\\TableTest.csproj": {
+    "D:\\Courses\\dotnetpractice\\Testing-Spectre\\TableTest.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\acer\\Desktop\\TableTest\\TableTest.csproj",
+        "projectUniqueName": "D:\\Courses\\dotnetpractice\\Testing-Spectre\\TableTest.csproj",
         "projectName": "TableTest",
-        "projectPath": "C:\\Users\\acer\\Desktop\\TableTest\\TableTest.csproj",
+        "projectPath": "D:\\Courses\\dotnetpractice\\Testing-Spectre\\TableTest.csproj",
         "packagesPath": "C:\\Users\\acer\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\acer\\Desktop\\TableTest\\obj\\",
+        "outputPath": "D:\\Courses\\dotnetpractice\\Testing-Spectre\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",

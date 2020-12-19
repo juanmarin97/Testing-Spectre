@@ -12,7 +12,7 @@ namespace TableTest {
             string name, surname;
             int birthday;
 
-            List<Person> Personas = new List<Person> ();
+            List<Person> personsList = new List<Person> ();
 
             do {
                 Console.WriteLine ("1- Para agregar persona\n2- Para mostrar información");
@@ -24,7 +24,7 @@ namespace TableTest {
                         surname = AnsiConsole.Ask<string> ("Cual es tu  [blue]apellido[/]?");
                         birthday = AnsiConsole.Ask<int> ("Cual es tu [green]año de nacimiento[/]?");
                         Person persona = new Person (name, surname, birthday);
-                        Personas.Add (persona);
+                        personsList.Add (persona);
                         AnsiConsole.Status ()
                             .Start ("Guardando...", ctx => {
                                 Thread.Sleep (1000);
@@ -32,15 +32,15 @@ namespace TableTest {
                                 ctx.Status ("Finalizado");
                                 ctx.Spinner (Spinner.Known.Star);
                                 ctx.SpinnerStyle (Style.Parse ("green"));
-                                Thread.Sleep(1000);
+                                Thread.Sleep (1000);
                             });
                         Console.Clear ();
                         break;
                     case 2:
 
-                        var saveTable =AnsiConsole.Confirm("Guardar tabla?");
+                        var saveTable = AnsiConsole.Confirm ("Guardar tabla?");
                         AnsiConsole.Record ();
-                        Table table = new Table (); 
+                        Table table = new Table ();
 
                         table.AddColumn ("Nombre");
                         table.AddColumn ("Apellido");
@@ -50,7 +50,7 @@ namespace TableTest {
                         table.AddColumn ("Idioma");
                         table.AddColumn ("Cordenadas");
 
-                        foreach (var item in Personas) {
+                        foreach (var item in personsList) {
                             table.AddRow (item.Name, item.Surname, item.Birthday.ToString (), item.Country, item.City, item.Language, item.Cordinates);
                         }
 
@@ -61,18 +61,15 @@ namespace TableTest {
                         table.BorderColor<Table> (Color.Blue);
                         AnsiConsole.Render (table);
 
-
-                        if (saveTable)
-                        {
-                            string html = AnsiConsole.ExportHtml();
-                            Directory.CreateDirectory("../Employes");
-                            File.WriteAllText("../Employes/index.html", html);
+                        if (saveTable) {
+                            string html = AnsiConsole.ExportHtml ();
+                            Directory.CreateDirectory ("../Employes");
+                            File.WriteAllText ("../Employes/index.html", html);
 
                             Console.ForegroundColor = Color.Green;
-                            Console.WriteLine("Guardado Exitosamente");
+                            Console.WriteLine ("Guardado Exitosamente");
                             Console.ForegroundColor = Color.White;
                         }
-                        
 
                         break;
 

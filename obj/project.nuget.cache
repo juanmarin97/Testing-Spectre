@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "qHntyq1GLOrNgdC+ms6qBxRmMCFQlMVzGtugQUeB+gK2sP954IUBjY8nESM4/t+SrZjsDFdqmNwfLt3c4/hRUA==",
+  "dgSpecHash": "JLNEh9k4gwjApBMdH+SdD+bYt6lLsGOVSEZMCV1Fm4wZQHrBPV5YIyDSJArt9z2PqAIEyUyBcHh0fpV0f38DEw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\acer\\Desktop\\TableTest\\TableTest.csproj",
+  "projectFilePath": "D:\\Courses\\dotnetpractice\\Testing-Spectre\\TableTest.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\acer\\.nuget\\packages\\app.user.locationinfo\\1.0.0\\app.user.locationinfo.1.0.0.nupkg.sha512",
     "C:\\Users\\acer\\.nuget\\packages\\newtonsoft.json\\12.0.2\\newtonsoft.json.12.0.2.nupkg.sha512",
